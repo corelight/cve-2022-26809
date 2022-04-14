@@ -1,0 +1,7 @@
+Place helper scripts, such a btest-diff canonifiers, in this directory.
+Note that Zeek versions 4.1 and newer include their btest tooling as part
+of the installation. Take a look at the folder reported via
+
+  zeek-config --btest_tools_dir
+
+for scripts, PRNG seeds, and pcaps you might be able to reuse.
